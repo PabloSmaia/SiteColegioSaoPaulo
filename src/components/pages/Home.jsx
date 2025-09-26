@@ -37,7 +37,7 @@ export const Home = () => {
             x
           </button>
           <Link to="/Matricula" className="flex justify-center">
-            <div className="bg-white  rounded-xl shadow-lg text-center max-w-[90%] sm:max-w-[70%]">
+            <div className="bg-white  rounded-xl shadow-lg text-center max-w-[90%] sm:max-w-[60%]">
               <img className="h-full w-ful rounded-lg" src={matricula} alt="" />
             </div>
           </Link>
