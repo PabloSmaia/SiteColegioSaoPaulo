@@ -1,0 +1,12 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: InikaBold;
+    src: url("./fonts/Inika-Bold.ttf") format("opentype");
+    font-style: normal;
+    font-display: swap;
+}
