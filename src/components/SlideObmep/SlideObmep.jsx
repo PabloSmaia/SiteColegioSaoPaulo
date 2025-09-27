@@ -29,7 +29,22 @@ export const SlideObmep = () => {
   const [width, setWidth] = useState(0);
 
   useEffect(() => {
-    setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth);
+    const observer = new ResizeObserver(() => {
+      if (carousel.current) {
+        const scrollWidth = carousel.current.scrollWidth;
+        const offsetWidth = carousel.current.offsetWidth;
+        setWidth(scrollWidth - offsetWidth);
+      }
+    });
+
+    if (carousel.current) {
+      observer.observe(carousel.current);
+    }
+    return () => {
+      if (carousel.current) {
+        observer.unobserve(carousel.current);
+      }
+    };
   }, []);
 
   return (
