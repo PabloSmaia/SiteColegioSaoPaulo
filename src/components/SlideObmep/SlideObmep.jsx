@@ -75,6 +75,7 @@ export const SlideObmep = () => {
             {[
               ...slides.map((s) => (
                 <img
+                  draggable="false"
                   className=" w-80 py-3 ml-20 transition-transform duration-300 hover:scale-125"
                   src={s}
                 />
