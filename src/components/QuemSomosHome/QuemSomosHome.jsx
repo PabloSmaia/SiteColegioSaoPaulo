@@ -15,7 +15,7 @@ export const QuemSomosHome = () => {
           <section>
             <div className="flex w-full h-[681px] items-center ">
               <img src={CspBibli} className="h-full w-full object-cover" />
-              <div className="py-4 sm:py-8 break-words -mt-20 w-[60%] sm:w-[50%]  ml-12 text-white absolute bg-black/40 backdrop-blur-sm p-7 rounded-md  ">
+              <div className="py-4 sm:py-8 break-words sm:ml-36 md:mt-5 lg:-mt-64 w-[95%] sm:w-[50%] ml-2 text-white absolute bg-black/40 backdrop-blur-sm p-7 rounded-md  ">
                 <h1 className="font-sans font-bold mb-5 text-[20px] sm:text-[30px]">
                   Seja bem-vindo(a) ao Colégio São Paulo
                 </h1>
@@ -32,7 +32,7 @@ export const QuemSomosHome = () => {
           </section>
           <section>
             <div className="flex w-full justify-end">
-              <div className="absolute *:ml-3 *:font-Inika -mt-16 z-10  w-[360px] sm:w-[500px] h-[140px] h bg-slate-300 p-3 rounded-s-xl ">
+              <div className="absolute *:ml-3 *:font-Inika -mt-16 z-10  w-[340px] sm:w-[500px] h-[140px] h bg-slate-300 p-3 rounded-s-xl ">
                 <h1 className="text-minhaCorb text-[20px]">Anúncio</h1>
                 <h1 className=" text-[35px] sm:text-[45px] -mt-2">
                   Matrículas abertas

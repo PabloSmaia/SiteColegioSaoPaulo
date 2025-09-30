@@ -12,11 +12,12 @@ import { FundamentalFinais } from "./components/pages/FundamentalFinais";
 import { EnsinoMedio } from "./components/pages/EnsinoMedio";
 import { Matricula } from "./components/pages/Matricula";
 import { ScrollTop } from "./components/hooks/ScrollTop";
+import { Navbar } from "./components/Navbar/Navbar";
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Header />
+        <Navbar />
         <ScrollTop />
         <Routes>
           <Route path="/" element={<Home />} />

@@ -32,13 +32,22 @@ export const LinksUtilitario = () => {
                 transition={{ duration: 0.6 }}
               >
                 <span className="grid gap-2 *:text-[20px] transition p-3 -mt-4">
-                  <Link className="transition hover:text-minhaCorb sm:w-[28%]">
+                  <Link
+                    to="/FundamentalInicial"
+                    className="transition hover:text-minhaCorb sm:w-[28%]"
+                  >
                     Ensino Fundameltal I
                   </Link>
-                  <Link className="transition hover:text-minhaCorb sm:w-[28%]">
+                  <Link
+                    to="/FundamentalFinais"
+                    className="transition hover:text-minhaCorb sm:w-[28%]"
+                  >
                     Ensino Fundamental II
                   </Link>
-                  <Link className="transition hover:text-minhaCorb sm:w-[28%]">
+                  <Link
+                    to="/EnsinoMedio"
+                    className="transition hover:text-minhaCorb sm:w-[28%]"
+                  >
                     Ensino Médio
                   </Link>
                 </span>
@@ -61,16 +70,28 @@ export const LinksUtilitario = () => {
                 transition={{ duration: 0.6 }}
               >
                 <span className="grid gap-2 *:text-[20px] transition p-3 -mt-4">
-                  <Link className="transition hover:text-minhaCorb sm:w-[28%]">
+                  <Link
+                    to="/EducaçaoInfantil"
+                    className="transition hover:text-minhaCorb sm:w-[28%]"
+                  >
                     Educação Infantil
                   </Link>
-                  <Link className="transition hover:text-minhaCorb sm:w-[28%]">
+                  <Link
+                    to="/FundamentalInicial"
+                    className="transition hover:text-minhaCorb sm:w-[28%]"
+                  >
                     Ensino Fundameltal I
                   </Link>
-                  <Link className="transition hover:text-minhaCorb sm:w-[28%]">
+                  <Link
+                    to="/FundamentalFinais"
+                    className="transition hover:text-minhaCorb sm:w-[28%]"
+                  >
                     Ensino Fundamental II
                   </Link>
-                  <Link className="transition hover:text-minhaCorb sm:w-[28%]">
+                  <Link
+                    to="/EnsinoMedio"
+                    className="transition hover:text-minhaCorb sm:w-[28%]"
+                  >
                     Ensino Médio
                   </Link>
                 </span>
