@@ -167,7 +167,7 @@ export const Header = () => {
                   </>
                 )}
                 <a href="#">SERVIÇO SOCIAL</a>
-                <button className=" ml-1 rounded-md lg-flex bg-minhaCorP hover:bg-yellow-500 text-minhaCorb w-36">
+                <button className="  ml-1 rounded-md lg-flex bg-minhaCorP hover:bg-yellow-500 text-minhaCorb w-36">
                   SISTEMA ACADÊMICO
                 </button>
               </div>

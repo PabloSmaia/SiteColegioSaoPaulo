@@ -15,7 +15,7 @@ export const QuemSomosHome = () => {
           <section>
             <div className="flex w-full h-[681px] items-center ">
               <img src={CspBibli} className="h-full w-full object-cover" />
-              <div className="py-4 sm:py-8 break-words sm:ml-36 md:mt-5 lg:-mt-64 w-[95%] sm:w-[50%] ml-2 text-white absolute bg-black/40 backdrop-blur-sm p-7 rounded-md  ">
+              <div className="py-4 -mt-52 sm:py-8 break-words sm:ml-36 md:mt-5 lg:-mt-64 w-[95%] sm:w-[50%] ml-2 text-white absolute bg-black/40 backdrop-blur-sm p-7 rounded-md  ">
                 <h1 className="font-sans font-bold mb-5 text-[20px] sm:text-[30px]">
                   Seja bem-vindo(a) ao Colégio São Paulo
                 </h1>
@@ -42,7 +42,7 @@ export const QuemSomosHome = () => {
                 </h1>
               </div>
             </div>
-            <div className="flex w-full h-[400px] bg-minhaCorb">
+            <div className="flex w-full overflow-hidden h-[400px] bg-minhaCorb">
               <div className="absolute">
                 <h1 className=" mt-14 ml-14  text-white text-[70px] font-Inika">
                   " O Amor

@@ -17,6 +17,7 @@ export const ServicoSocial = () => {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -20 }}
         transition={{ duration: 0.8, ease: "easeInOut" }}
+        className="w-full"
       >
         <h1 className="font-bold text-minhaCorb sm:text-[40px] text-[25px] mr-[30%] sm:mr-[17%] mt-9 text-center ">
           Serviço Social
@@ -26,10 +27,10 @@ export const ServicoSocial = () => {
           <br />
         </div>
 
-        <section className="px-16 mt-12 mb-60">
-          <div className="sm:grid sm:grid-cols-2 gap-20  ">
-            <div className="h-auto break-words rounded-md p-12  *:mt-7">
-              <h1 className="font-bold  text-[30px] text-minhaCorb">
+        <section className="px-16  sm:mt-12 sm:mb-60 ">
+          <div className=" flex flex-col sm:grid sm:grid-cols-2 sm:gap-20  ">
+            <div className="sm:h-auto break-words rounded-md sm:p-12  *:mt-7">
+              <h1 className="font-bold  sm:text-[30px] text-minhaCorb">
                 RENOVAÇÃO DE BOLSAS DE ESTUDOS.
               </h1>
               <h2>
@@ -57,14 +58,14 @@ export const ServicoSocial = () => {
                 servicosocial@csptere.com.br
               </h2>
             </div>
-            <div className="  rounded-md p-12 justify-center items-center  ">
-              <h1 className="font-bold text-[25px] text-minhaCorb text-center mt-6">
+            <div className="  rounded-md sm:p-12 sm:justify-center sm:items-center  ">
+              <h1 className="font-bold sm:text-[25px] text-minhaCorb text-center mt-6">
                 PROCESSO SELETIVO DE BOLSAS DE ESTUDOS
               </h1>
-              <h1 className="font-bold text-[30px] text-minhaCorb text-center">
+              <h1 className="font-bold sm:text-[30px] text-minhaCorb text-center">
                 2026
               </h1>
-              <h2 className="text-[20px] font-bold mt-5">
+              <h2 className="sm:text-[20px] font-bold mt-5">
                 Informamos que haverá concessão de bolsas de estudos, através do
                 processo de seleção de alunos da Rede Pública do Município de
                 Teresópolis, para a 1ª Série do Ensino Médio.

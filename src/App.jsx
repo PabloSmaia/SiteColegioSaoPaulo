@@ -13,6 +13,7 @@ import { EnsinoMedio } from "./components/pages/EnsinoMedio";
 import { Matricula } from "./components/pages/Matricula";
 import { ScrollTop } from "./components/hooks/ScrollTop";
 import { Navbar } from "./components/Navbar/Navbar";
+import { Footer } from "./components/Navbar/Footer";
 function App() {
   return (
     <>
@@ -33,6 +34,7 @@ function App() {
           <Route path="/EnsinoMedio" element={<EnsinoMedio />} />
           <Route path="/Matricula" element={<Matricula />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

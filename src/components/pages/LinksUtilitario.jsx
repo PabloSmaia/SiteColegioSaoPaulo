@@ -16,7 +16,7 @@ export const LinksUtilitario = () => {
       transition={{ duration: 0.5, ease: "easeInOut" }}
     >
       <section className="flex justify-centers">
-        <div className="grid ml-4 sm:ml-20 mt-12 gap-3 w-[70%]  *:text-[30px] font-Inika text-zinc-600">
+        <div className="grid ml-4 sm:ml-20 mt-12 gap-3 w-[70%] *:text-[20px] sm:*:text-[30px] font-Inika text-zinc-600">
           <Link
             onClick={() => togleVisivel("provas")}
             className="hover:text-minhaCorb transition sm:w-[38%]"
@@ -34,7 +34,7 @@ export const LinksUtilitario = () => {
                 <span className="grid gap-2 *:text-[20px] transition p-3 -mt-4">
                   <Link
                     to="/FundamentalInicial"
-                    className="transition hover:text-minhaCorb sm:w-[28%]"
+                    className="transition hover:text-minhaCorb  sm:w-[28%]"
                   >
                     Ensino Fundameltal I
                   </Link>

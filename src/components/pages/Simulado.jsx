@@ -23,15 +23,15 @@ export const Simulado = () => {
           <br />
         </div>
         {/*section que segura tudo  */}
-        <section className="mb-16">
+        <section className="mb-16 p-2">
           {/*section primeiro dia  */}
-          <section className="felx justify-center items-center">
-            <div className="ml-[30%] w-[50%]">
+          <section className="felx sm:justify-center sm:items-center">
+            <div className="sm:ml-[30%] sm:w-[50%]">
               <div>
-                <h1 className=" mt-10 text-minhaCorb font-Inika sm:text-[40px] text-[30px]">
+                <h1 className=" mt-10 text-minhaCorb font-Inika sm:text-[40px] text-[20px]">
                   1º SIMULADO
                 </h1>
-                <div className="grid gap-3 w-[70%]  *:text-[30px] font-sans font-bold text-zinc-600">
+                <div className="grid gap-3 w-[70%] *:text-[20px]  sm:*:text-[30px] font-sans font-bold text-zinc-600">
                   <Link
                     onClick={() => togleVisivel("provas")}
                     className="hover:text-minhaCorb transition sm:w-[38%]"
@@ -63,7 +63,7 @@ export const Simulado = () => {
                       </motion.div>
                     )}
                     <p className="w-full bg-minhaCorb rounded-3xl h-1 "></p>
-                    <div className="grid  gap-3 w-[70%]  *:text-[30px] font-sans font-bold text-zinc-600">
+                    <div className="grid  gap-3 w-[70%]  *:text-[20px]  sm:*:text-[30px] font-sans font-bold text-zinc-600">
                       <Link
                         onClick={() => togleVisivel("2dia")}
                         className="hover:text-minhaCorb transition sm:w-[38%]"
@@ -104,12 +104,12 @@ export const Simulado = () => {
 
           {/*section segundo dia  */}
           <section className="felx justify-center items-center">
-            <div className="ml-[30%] w-[50%]">
+            <div className="sm:ml-[30%] w-[50%]">
               <div>
-                <h1 className=" mt-10 text-minhaCorb font-Inika sm:text-[40px] text-[30px]">
+                <h1 className=" mt-10 text-minhaCorb font-Inika sm:text-[40px] text-[20px]">
                   2º SIMULADO
                 </h1>
-                <div className="grid gap-3 w-[70%]  *:text-[30px] font-sans font-bold text-zinc-600">
+                <div className="grid gap-3 w-[70%] *:text-[20px]  sm:*:text-[30px] font-sans font-bold text-zinc-600">
                   <Link
                     onClick={() => togleVisivel("provas2")}
                     className="hover:text-minhaCorb transition sm:w-[38%]"
@@ -141,7 +141,7 @@ export const Simulado = () => {
                       </motion.div>
                     )}
                     <p className="w-full bg-minhaCorb rounded-3xl h-1 "></p>
-                    <div className="grid  gap-3 w-[70%]  *:text-[30px] font-sans font-bold text-zinc-600">
+                    <div className="grid  gap-3 w-[70%] *:text-[20px] sm:*:text-[30px] font-sans font-bold text-zinc-600">
                       <Link
                         onClick={() => togleVisivel("2dia2")}
                         className="hover:text-minhaCorb transition sm:w-[38%]"
@@ -182,12 +182,12 @@ export const Simulado = () => {
 
           {/*section terceiro dia  */}
           <section className="felx justify-center items-center">
-            <div className="ml-[30%] w-[50%]">
+            <div className="sm:ml-[30%] w-[50%]">
               <div>
-                <h1 className=" mt-10 text-minhaCorb font-Inika sm:text-[40px] text-[30px]">
+                <h1 className=" mt-10 text-minhaCorb font-Inika sm:text-[40px] text-[20px]">
                   3º SIMULADO
                 </h1>
-                <div className="grid gap-3 w-[70%]  *:text-[30px] font-sans font-bold text-zinc-600">
+                <div className="grid gap-3 w-[70%]  *:text-[20px] sm:*:text-[30px] font-sans font-bold text-zinc-600">
                   <Link
                     onClick={() => togleVisivel("provas3")}
                     className="hover:text-minhaCorb transition sm:w-[38%]"
@@ -219,7 +219,7 @@ export const Simulado = () => {
                       </motion.div>
                     )}
                     <p className="w-full bg-minhaCorb rounded-3xl h-1 "></p>
-                    <div className="grid  gap-3 w-[70%]  *:text-[30px] font-sans font-bold text-zinc-600">
+                    <div className="grid  gap-3 w-[70%] *:text-[20px]  sm:*:text-[30px] font-sans font-bold text-zinc-600">
                       <Link
                         onClick={() => togleVisivel("2dia3")}
                         className="hover:text-minhaCorb transition sm:w-[38%]"

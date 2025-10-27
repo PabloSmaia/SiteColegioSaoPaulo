@@ -3,7 +3,6 @@ import { SlideObmep } from "../SlideObmep/SlideObmep";
 import { SlideEnem } from "../SlideEnem/SlideEnem";
 import { QuemSomosHome } from "../QuemSomosHome/QuemSomosHome";
 import { LinksUtilitario } from "./LinksUtilitario";
-import { Footer } from "../Navbar/Footer";
 import { Parceiros } from "../slideParceiros/Parceiros";
 import { SegmentoHome } from "../Segmentos/SegmentoHome";
 import matricula from "../../assets/matricula/popup.png";
@@ -26,7 +25,6 @@ export const Home = () => {
         <SlideObmep />
         <SlideEnem />
         <Parceiros />
-        <Footer />
       </div>
       {showPopup && (
         <div className="rounded-lg fixed scrol-none top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-40">
