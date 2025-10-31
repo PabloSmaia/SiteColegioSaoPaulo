@@ -60,7 +60,12 @@ export const EnsinoMedio = () => {
                   transition={{ duration: 0.8 }}
                 >
                   <span className="grid gap-2 *:text-[20px] transition p-3 -mt-4">
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="../../../public/PdfsListaMaterial/EnsinoMedio/1ªSÉRIE-Ensino Médio-LISTADEMATERIAL2026.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       1ª SÉRIE
                     </a>
                     <a className="transition hover:text-minhaCorb sm:w-[28%]">
