@@ -37,12 +37,12 @@ export const Header = () => {
                 <img className="w-44 h-38" src={logo} alt="" />
               </Link>
               {/* Primary menu and logo */}
-              <div className="flex items-center gap-5                                                                                                                                                                                                                                                                      N my-5">
+              <div className="flex items-center gap-6                                                                                                                                                                                                                                                                      N my-5">
                 <div className="hidden lg:flex gap-5 ">
                   <Link className="hover:text-minhaCorP" to="/Home">
                     INÍCIO
                   </Link>
-                  <Link className="hover:text-minhaCorP" to="/QuemSomos">
+                  <Link className=" hover:text-minhaCorP" to="/QuemSomos">
                     QUEM SOMOS
                   </Link>
                   <div

@@ -17,7 +17,7 @@ export const Navbar = () => {
   };
   return (
     <>
-      <div className="flex space-x-3 justify-end bg-minhaCorP *:transition *:duration-1000 ">
+      <div className="flex space-x-3 justify-end w-full bg-minhaCorP *:transition *:duration-1000 ">
         <a href="">
           <img className="w-8 h-8 ml-4" src={whats} alt="" />
         </a>
@@ -50,7 +50,7 @@ export const Navbar = () => {
             QUEM SOMOS
           </Link>
           <Link
-            className="md:ml-2  transition hover:text-minhaCorP"
+            className=" lg:ml-0    transition hover:text-minhaCorP"
             onClick={() => togleVisivel("Visivel")}
           >
             ACADÊMICO
@@ -93,12 +93,12 @@ export const Navbar = () => {
           <Link
             onClick={() => setVisivel(false)}
             to="/ServicoSocial"
-            className="lg:-ml-8 md:md:ml-2  transition hover:text-minhaCorP"
+            className="lg:-ml-8 md:ml-2  transition hover:text-minhaCorP"
           >
             SERVIÇO SOCIAL
           </Link>
         </motion.div>
-        <div className="flex md:ml-44 lg:ml-0 items-center justify-center mr-56">
+        <div className="flex md:ml-46 lg:ml-0 items-center justify-center mr-56">
           <a className="flex" href="https://sp.w3online.inf.br/fix2.htm">
             <button
               href="https://sp.w3online.inf.br/fix2.htm"

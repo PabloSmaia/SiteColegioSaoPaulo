@@ -1,5 +1,6 @@
 import React from "react";
 import CspBibli from "../../assets/QuemSomosHome/DS01-6836.JPG.jpg";
+import Banner from "../../assets/QuemSomosHome/bannerhome.png";
 import CSP from "../../assets/QuemSomosHome/CSPTRANSPARENTE.png";
 import { motion } from "framer-motion";
 export const QuemSomosHome = () => {
@@ -15,7 +16,7 @@ export const QuemSomosHome = () => {
           <section>
             <div className="flex w-full h-[681px] items-center ">
               <img src={CspBibli} className="h-full w-full object-cover" />
-              <div className="py-4 -mt-52 sm:py-8 break-words sm:ml-36 md:mt-5 lg:-mt-64 w-[95%] sm:w-[50%] ml-2 text-white absolute bg-black/40 backdrop-blur-sm p-7 rounded-md  ">
+              <div className="md:w-[50%] py-4 -mt-52 sm:py-8 break-words sm:ml-36 md:mt-5 lg:-mt-64 w-[95%] sm:w-[50%] ml-2 text-white absolute bg-black/40 backdrop-blur-sm p-7 rounded-md  ">
                 <h1 className="font-sans font-bold mb-5 text-[20px] sm:text-[30px]">
                   Seja bem-vindo(a) ao Colégio São Paulo
                 </h1>
@@ -61,6 +62,9 @@ export const QuemSomosHome = () => {
                   alt=""
                 />
               </div>
+            </div>
+            <div className="flex w-full h-[full] items-center ">
+              <img src={Banner} className="h-full w-full object-cover" />
             </div>
           </section>
         </main>

@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-import { SlideObmep } from "../SlideObmep/SlideObmep";
-import { SlideEnem } from "../SlideEnem/SlideEnem";
 import { QuemSomosHome } from "../QuemSomosHome/QuemSomosHome";
 import { LinksUtilitario } from "./LinksUtilitario";
 import { Parceiros } from "../slideParceiros/Parceiros";
@@ -22,8 +20,6 @@ export const Home = () => {
         <QuemSomosHome />
         <SegmentoHome />
         <LinksUtilitario />
-        <SlideObmep />
-        <SlideEnem />
         <Parceiros />
       </div>
       {showPopup && (
