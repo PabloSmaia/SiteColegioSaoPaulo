@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import foto1 from "../../assets/segmento/infantil.png";
+import foto1 from "../../assets/segmento/Infantil.png";
 import foto2 from "../../assets/segmento/fun1.png";
 import foto3 from "../../assets/segmento/medio.png";
 import foto4 from "../../assets/segmento/fun2.png";
