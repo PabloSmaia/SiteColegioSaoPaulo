@@ -66,7 +66,7 @@ export const EducaçaoInfantil = () => {
                 >
                   <span className="grid gap-2 *:text-[20px] transition p-3 -mt-4">
                     <a
-                      href="../../../public/PdfsListaMaterial/EducaçãoInfantil/MATERNAL.pdf"
+                      href="/MATERNAL.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="transition hover:text-minhaCorb sm:w-[28%]"
@@ -74,7 +74,7 @@ export const EducaçaoInfantil = () => {
                       Maternal
                     </a>
                     <a
-                      href="../../../public/PdfsListaMaterial/EducaçãoInfantil/JARDIM.pdf"
+                      href="/JARDIM.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="transition hover:text-minhaCorb sm:w-[28%]"
@@ -82,7 +82,7 @@ export const EducaçaoInfantil = () => {
                       Jardim
                     </a>
                     <a
-                      href="../../../public/PdfsListaMaterial/EducaçãoInfantil/PRE-1.pdf"
+                      href="/PRE-1.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="transition hover:text-minhaCorb sm:w-[28%]"
