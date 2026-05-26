@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import Marista from "../../assets/FotosSegmento/Marista.jpeg";
+import Maternal from "../../assets/FotosSegmento/Maternal.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -43,7 +43,7 @@ export const EducaçaoInfantil = () => {
               </h1>
             </div>
             <div>
-              <img className="rounded-xl mt-5" src={Marista} alt="" />
+              <img className="rounded-xl mt-5" src={Maternal} alt="" />
             </div>
           </div>
           <div></div>
@@ -90,7 +90,7 @@ export const EducaçaoInfantil = () => {
                       Pre I
                     </a>
                     <a
-                      href="../../../public/PdfsListaMaterial/EducaçãoInfantil/PRE-2.pdf"
+                      href="/PRE-2.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="transition hover:text-minhaCorb sm:w-[28%]"
@@ -98,7 +98,7 @@ export const EducaçaoInfantil = () => {
                       Pre II
                     </a>
                     <a
-                      href="../../../public/PdfsListaMaterial/EducaçãoInfantil/1-ANO.pdf"
+                      href="/1-ANO.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="transition hover:text-minhaCorb sm:w-[28%]"

@@ -36,10 +36,10 @@ export const QuemSomosHome = () => {
               <div className="absolute *:ml-3 *:font-Inika -mt-16 z-10  w-[340px] sm:w-[500px] h-[140px] h bg-slate-300 p-3 rounded-s-xl ">
                 <h1 className="text-minhaCorb text-[20px]">Anúncio</h1>
                 <h1 className=" text-[35px] sm:text-[45px] -mt-2">
-                  Matrículas abertas
+                  Festa junina
                 </h1>
                 <h1 className=" -mt-3 text-[20px] sm:text-[30px]">
-                  EDITAL 2026
+                  Data: 20 de junho
                 </h1>
               </div>
             </div>

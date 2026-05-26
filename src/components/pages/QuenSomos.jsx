@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-
 import CSP from "../../assets/QuemSomosHome/CSPANTIGO.png";
+import { Link } from "react-router-dom";
 
 export const QuenSomos = () => {
   return (
@@ -32,9 +32,11 @@ export const QuenSomos = () => {
                 competentes e qualificados. Atualmente, a administração do
                 Colégio também conta com a colaboração das Irmãs.
               </h1>
-              <button className="border items-center  w-[50%] sm:w-full border-transparent hover:border-minhaCorP ml-20 sm:ml-1 mt-3 py-2 p-3 rounded-lg text-white  bg-minhaCorb transition-transform duration-300 transform hover:scale-110 ">
-                Clique aqui e saiba mais sobre a nossa história
-              </button>
+              <Link to="/HistoriaAngelicas">
+                <button className="border items-center  w-[50%] sm:w-full border-transparent hover:border-minhaCorP ml-20 sm:ml-1 mt-3 py-2 p-3 rounded-lg text-white  bg-minhaCorb transition-transform duration-300 transform hover:scale-110 ">
+                  Clique aqui e saiba mais sobre a nossa história
+                </button>
+              </Link>
             </div>
             <div className="sm:mr-32 mt-9">
               <img src={CSP} alt="" />
@@ -45,7 +47,8 @@ export const QuenSomos = () => {
             className="bg-minhaCorb mt-4
            h-2 w-[45%] rounded-md"
           ></div>
-          <div className="sm:grid sm:grid-cols-3 sm:px-80 ml-9 mt-7">
+
+          <div className="sm:grid sm:grid-cols-3 sm:px-80 sm:-ml-48  gap-x-72 mt-7">
             <div className=" w-72 ">
               <h1 className="font-bold text-center text-[30px] text-minhaCorb text">
                 MISSÃO

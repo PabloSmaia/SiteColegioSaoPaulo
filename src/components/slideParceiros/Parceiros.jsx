@@ -53,18 +53,26 @@ export const Parceiros = () => {
           drag="x"
           dragConstraints={{ right: 0, left: -width }}
           initia={{ x: 100 }}
-          animate={{ x: 0 }}
-          transition={{ duration: 0.8 }}
+          animate={{ x: ["0%", "-100%"] }} // move da posição inicial até -100%
+          transition={{
+            repeat: Infinity, // repete para sempre
+            repeatType: "loop", // em loop contínuo
+            duration: 10, // tempo da animação
+            ease: "linear", // movimento constante
+          }}
         >
           <motion.div className="flex select-none ">
             {[
-              ...imagens.map((s) => (
-                <img
-                  draggable="false"
-                  className="select-none w-[30%] h-[40%s] sm:w-full gap-8 ml-14 sm:ml-20 sm:h-full transition-transform duration-300 hover:scale-125"
-                  src={s}
-                />
-              )),
+              imagens
+                .concat(imagens)
+                .map((s, i) => (
+                  <img
+                    draggable="false"
+                    className="select-none w-[30%] h-[40%s] sm:w-full gap-8 ml-14 sm:ml-20 sm:h-full transition-transform duration-300 hover:scale-125"
+                    src={s}
+                    key={i}
+                  />
+                )),
             ]}
           </motion.div>
         </motion.div>

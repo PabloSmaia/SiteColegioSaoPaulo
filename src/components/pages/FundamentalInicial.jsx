@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import Marista from "../../assets/FotosSegmento/Marista.jpeg";
+import FUN1 from "../../assets/FotosSegmento/FUN1.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -27,21 +27,25 @@ export const FundamentalInicial = () => {
                 Anos Iniciais
               </h1>
               <h1>
-                No Marista, brincadeira, jogo e imaginação são coisas sérias no
-                desenvolvimento das crianças. Com eles, interagem entre si e a
-                realidade, estabelecem vínculos afetivos e sociais, fazem
-                descobertas e aprendem a lidar com as emoções, a socializar e a
-                adquirir o conhecimento de maneira prazerosa e criativa. O
-                currículo da Educação Infantil favorece as práticas pedagógicas
-                voltadas para o conjunto de experiências que colocam a criança
-                no centro do projeto educativo, como protagonistas no seu modo
-                singular de fazer, agir e pensar. Em consonância com a Base
-                Nacional Comum Curricular (BNCC), promove os campos de
-                experiência para a aprendizagem.
+                Nos Anos Iniciais do Ensino Fundamental, o Colégio São Paulo
+                consolida as bases do conhecimento e amplia as descobertas
+                iniciadas na Educação Infantil. Nesta etapa, o aluno é
+                incentivado a desenvolver habilidades essenciais como leitura,
+                escrita, raciocínio lógico e autonomia, sempre em um ambiente
+                acolhedor e estimulante. O processo de aprendizagem acontece de
+                forma significativa, conectando conteúdos à realidade do
+                estudante e promovendo o pensamento crítico desde cedo. Com uma
+                proposta pedagógica que valoriza o desenvolvimento integral,
+                unimos formação acadêmica, socioemocional e espiritual, ajudando
+                cada criança a crescer com segurança, responsabilidade e
+                confiança em seu próprio potencial. Em sintonia com a Base
+                Nacional Comum Curricular (BNCC), trabalhamos competências e
+                habilidades que preparam o aluno não apenas para os próximos
+                desafios escolares, mas para a vida.
               </h1>
             </div>
             <div>
-              <img className="rounded-xl mt-5" src={Marista} alt="" />
+              <img className="rounded-xl mt-5" src={FUN1} alt="" />
             </div>
           </div>
           <div></div>
@@ -63,16 +67,36 @@ export const FundamentalInicial = () => {
                   transition={{ duration: 0.8 }}
                 >
                   <span className="grid gap-2 *:text-[20px] transition p-3 -mt-4">
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/2ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       2º ANO
                     </a>
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/3ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       3º ANO
                     </a>
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/4ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       4º ANO
                     </a>
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/5ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       5º ANO
                     </a>
                   </span>
@@ -96,16 +120,36 @@ export const FundamentalInicial = () => {
                   transition={{ duration: 0.8 }}
                 >
                   <span className="grid gap-2 *:text-[20px] transition p-3 -mt-4">
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/1ETAPA2ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       2º ANO
                     </a>
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/1ETAPA3ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       3º ANO
                     </a>
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/1ETAPA4ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       4º ANO
                     </a>
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/1ETAPA5ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       5º ANO
                     </a>
                   </span>
@@ -115,22 +159,22 @@ export const FundamentalInicial = () => {
           </div>
         </section>
         <section className="flex justify-center items-center bg-minhaCorb/20  mt-10">
-          <div className="sm:grid grid-cols-2 mb-10 mt-14 gap-10 w-[70%] justify-end items-center">
-            <div className="flex flex-col">
+          <div className="sm:grid grid-cols-2 mb-32 w-[70%] ">
+            <div className="flex flex-col mt-10">
               <div className="flex ">
                 <div className=" flex items-center justify-center font-sans font-bold text-minhaCorP bg-minhaCorb h-10 w-10 p-5 rounded-full  text-[15px]">
                   1
                 </div>
                 <div className=" ml-4 flex flex-col">
                   <h1 className="text-minhaCorb font-bold text-[25px]">
-                    Letramento
+                    Letramento e Raciocínio Lógico
                   </h1>
                   <h1 className="text-minhaCorb ">
-                    No contato com os outros, a criança desenvolve linguagens e
-                    pensamento, expressando-os de várias formas, como a fala,
-                    desenhos, reconhecimento de letras e palavras. Com a prática
-                    pedagógica, terão vivências que promoverão a apropriação das
-                    funções sociais da leitura e escrita
+                    Nos Anos Iniciais, fortalecemos as habilidades de leitura,
+                    escrita e matemática, essenciais para o desenvolvimento
+                    acadêmico. O aluno é estimulado a compreender, interpretar e
+                    resolver situações-problema, construindo uma base sólida
+                    para sua trajetória escolar
                   </h1>
                 </div>
               </div>
@@ -140,50 +184,101 @@ export const FundamentalInicial = () => {
                 </div>
                 <div className=" ml-4 flex flex-col">
                   <h1 className="text-minhaCorb font-bold text-[25px]">
-                    Brincar
+                    Robótica Educacional
                   </h1>
                   <h1 className="text-minhaCorb ">
-                    É pela brincadeira que a criança apreende seu universo
-                    social e organiza a realidade. O brincar desenvolve a
-                    identidade, a autonomia, a socialização, o contato com
-                    regras sociais, possibilidades de escolhas, resolução de
-                    situações-problemas e o desenvolvimento da imaginação
-                  </h1>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col">
-              <div className="flex ">
-                <div className=" flex items-center justify-center font-sans font-bold text-minhaCorP bg-minhaCorb h-10 w-10 p-5 rounded-full  text-[15px]">
-                  3
-                </div>
-                <div className=" ml-4 flex flex-col">
-                  <h1 className="text-minhaCorb font-bold text-[25px]">
-                    Imagem e Arte
-                  </h1>
-                  <h1 className="text-minhaCorb ">
-                    As possibilidades de experiências incorporam as diferentes
-                    linguagens: o desenho e a pintura, a fotografia, o cinema, a
-                    escultura, o vídeo, os processos de expressão e criação e os
-                    instrumentos artísticos, de maneira a estimular a atividade
-                    intelectual, a sensibilidade e a habilidade manual.
+                    A robótica é uma ferramenta de aprendizagem que desenvolve o
+                    pensamento lógico, a criatividade e a resolução de
+                    problemas. Por meio de atividades práticas, os alunos
+                    aprendem a trabalhar em equipe, planejar soluções e explorar
+                    conceitos tecnológicos de forma dinâmica e significativa.
                   </h1>
                 </div>
               </div>
               <div className="flex mt-10">
                 <div className=" flex items-center justify-center font-sans font-bold text-minhaCorP bg-minhaCorb h-10 w-10 p-5 rounded-full  text-[15px]">
+                  3
+                </div>
+                <div className=" ml-4 flex flex-col">
+                  <h1 className="text-minhaCorb font-bold text-[25px]">
+                    Inteligência Socioemocional (LIV)
+                  </h1>
+                  <h1 className="text-minhaCorb ">
+                    Com o programa LIV – Laboratório Inteligência de Vida, os
+                    alunos desenvolvem habilidades socioemocionais fundamentais,
+                    como empatia, autoconhecimento e responsabilidade. A partir
+                    dos 5 anos, o LIV contribui para a formação integral,
+                    preparando os estudantes para lidar com desafios dentro e
+                    fora da escola.
+                  </h1>
+                </div>
+              </div>
+              <div className="flex mt-10 ">
+                <div className=" flex items-center justify-center font-sans font-bold text-minhaCorP bg-minhaCorb h-10 w-10 p-5 rounded-full  text-[15px]">
                   4
+                </div>
+                <div className=" ml-4 flex flex-col">
+                  <h1 className="text-minhaCorb font-bold text-[25px]">
+                    Inglês com Programa Bilíngue
+                  </h1>
+                  <h1 className="text-minhaCorb ">
+                    Por meio do Programa Bilíngue em parceria com a
+                    International School (IS), os alunos vivenciam o inglês de
+                    forma integrada ao currículo. As aulas são dinâmicas e
+                    contextualizadas, favorecendo o desenvolvimento da
+                    comunicação no idioma desde cedo.
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col  ">
+              <div className="flex mt-10">
+                <div className=" flex items-center justify-center font-sans font-bold text-minhaCorP bg-minhaCorb h-10 w-10 p-5 rounded-full  text-[15px]">
+                  5
                 </div>
                 <div className=" ml-4 flex flex-col ">
                   <h1 className="text-minhaCorb font-bold text-[25px]">
-                    Inglês
+                    Música
                   </h1>
                   <h1 className="text-minhaCorb ">
-                    Com o Programa Marista Bilíngue, os estudantes têm a
-                    oportunidade de vivenciar a aquisição da língua inglesa, por
-                    meio de experiências e projetos que utilizam o Inglês como
-                    ferramenta para a construção do conhecimento. Assim,
-                    articula o aprendizado do idioma com outras áreas.
+                    A música contribui para o desenvolvimento da sensibilidade,
+                    da expressão e da criatividade. Por meio de atividades
+                    rítmicas, canto e vivências musicais, os alunos ampliam sua
+                    percepção artística e fortalecem habilidades cognitivas e
+                    socioemocionais.
+                  </h1>
+                </div>
+              </div>
+              <div className="flex mt-10">
+                <div className=" flex items-center justify-center font-sans font-bold text-minhaCorP bg-minhaCorb h-10 w-10 p-5 rounded-full  text-[15px]">
+                  6
+                </div>
+                <div className=" ml-4 flex flex-col ">
+                  <h1 className="text-minhaCorb font-bold text-[25px]">
+                    Ensino Religioso
+                  </h1>
+                  <h1 className="text-minhaCorb ">
+                    Em sintonia com os valores do Colégio São Paulo, o Ensino
+                    Religioso promove a formação espiritual e humana dos alunos.
+                    São trabalhados valores como respeito, solidariedade,
+                    empatia e responsabilidade, contribuindo para a construção
+                    de uma consciência ética e cristã.
+                  </h1>
+                </div>
+              </div>
+              <div className="flex mt-16">
+                <div className=" flex items-center justify-center font-sans font-bold text-minhaCorP bg-minhaCorb h-10 w-10 p-5 rounded-full  text-[15px]">
+                  7
+                </div>
+                <div className=" ml-4 flex flex-col ">
+                  <h1 className="text-minhaCorb font-bold text-[25px]">
+                    Ensino Religioso
+                  </h1>
+                  <h1 className="text-minhaCorb ">
+                    Nosso ensino vai além dos conteúdos acadêmicos. Valorizamos
+                    o desenvolvimento completo do aluno — intelectual,
+                    emocional, social e espiritual — formando cidadãos
+                    preparados para a vida.
                   </h1>
                 </div>
               </div>

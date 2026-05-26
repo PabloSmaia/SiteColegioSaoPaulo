@@ -9,6 +9,7 @@ import { CalendarioDeProva } from "./components/pages/CalendarioDeProva";
 import { EducaçaoInfantil } from "./components/pages/EducaçaoInfantil";
 import { FundamentalInicial } from "./components/pages/FundamentalInicial";
 import { FundamentalFinais } from "./components/pages/FundamentalFinais";
+import { HistoriaAngelicas } from "./components/pages/HistoriaAngelicas";
 import { EnsinoMedio } from "./components/pages/EnsinoMedio";
 import { Matricula } from "./components/pages/Matricula";
 import { ScrollTop } from "./components/hooks/ScrollTop";
@@ -33,6 +34,7 @@ function App() {
           <Route path="/FundamentalFinais" element={<FundamentalFinais />} />
           <Route path="/EnsinoMedio" element={<EnsinoMedio />} />
           <Route path="/Matricula" element={<Matricula />} />
+          <Route path="/HistoriaAngelicas" element={<HistoriaAngelicas />} />
         </Routes>
         <Footer />
       </BrowserRouter>

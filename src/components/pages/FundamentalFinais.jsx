@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import Marista from "../../assets/FotosSegmento/Marista.jpeg";
+import FUN1 from "../../assets/FotosSegmento/FUN1.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -27,21 +27,25 @@ export const FundamentalFinais = () => {
                 Anos Finais
               </h1>
               <h1>
-                No Marista, brincadeira, jogo e imaginação são coisas sérias no
-                desenvolvimento das crianças. Com eles, interagem entre si e a
-                realidade, estabelecem vínculos afetivos e sociais, fazem
-                descobertas e aprendem a lidar com as emoções, a socializar e a
-                adquirir o conhecimento de maneira prazerosa e criativa. O
-                currículo da Educação Infantil favorece as práticas pedagógicas
-                voltadas para o conjunto de experiências que colocam a criança
-                no centro do projeto educativo, como protagonistas no seu modo
-                singular de fazer, agir e pensar. Em consonância com a Base
-                Nacional Comum Curricular (BNCC), promove os campos de
-                experiência para a aprendizagem.
+                Nos Anos Finais do Ensino Fundamental, o Colégio São Paulo
+                amplia o desenvolvimento acadêmico e fortalece a formação
+                crítica dos alunos, preparando-os para novos desafios e para a
+                continuidade de sua trajetória escolar. Nesta etapa, o estudante
+                é incentivado a aprofundar conhecimentos, desenvolver autonomia
+                nos estudos e construir um pensamento mais analítico e
+                reflexivo. As diferentes áreas do saber são trabalhadas de forma
+                integrada, promovendo a capacidade de argumentação,
+                interpretação e resolução de problemas. Ao mesmo tempo,
+                valorizamos o acompanhamento próximo e o cuidado com o
+                desenvolvimento socioemocional e espiritual, fundamentais para
+                essa fase de transição e amadurecimento. Em sintonia com a Base
+                Nacional Comum Curricular (BNCC), buscamos formar alunos
+                protagonistas, responsáveis e preparados não apenas para o
+                Ensino Médio, mas para a vida em sociedade.
               </h1>
             </div>
             <div>
-              <img className="rounded-xl mt-5" src={Marista} alt="" />
+              <img className="rounded-xl mt-5" src={FUN1} alt="" />
             </div>
           </div>
           <div></div>
@@ -50,7 +54,7 @@ export const FundamentalFinais = () => {
           <div className="grid ml-12 sm:ml-60 mt-12 gap-3 w-[70%]  *:text-[30px] font-Inika text-zinc-600">
             <Link
               onClick={() => togleVisivel("ativo")}
-              className=" hover:text-minhaCorb transition transiton sm:w-[28%] -mt-5"
+              className=" hover:text-minhaCorb transition transiton sm:w-[35%] -mt-5"
             >
               Lista de Material
             </Link>
@@ -63,16 +67,36 @@ export const FundamentalFinais = () => {
                   transition={{ duration: 0.8 }}
                 >
                   <span className="grid gap-2 *:text-[20px] transition p-3 -mt-4">
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/6ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       6º ANO
                     </a>
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/7ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       7º ANO
                     </a>
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/8ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       8º ANO
                     </a>
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/9ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       9º ANO
                     </a>
                   </span>
@@ -83,7 +107,7 @@ export const FundamentalFinais = () => {
             <p className="w-full bg-minhaCorb h-1 rounded-3xl -mt-5"></p>
             <Link
               onClick={() => togleVisivel("Prova")}
-              className=" hover:text-minhaCorb transition transiton sm:w-[30%] -mt-5"
+              className=" hover:text-minhaCorb transition transiton sm:w-[35%] -mt-5"
             >
               Calendário de Prova
             </Link>
@@ -96,16 +120,36 @@ export const FundamentalFinais = () => {
                   transition={{ duration: 0.8 }}
                 >
                   <span className="grid gap-2 *:text-[20px] transition p-3 -mt-4">
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/1ETAPA6ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       6º ANO
                     </a>
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/1ETAPA7ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       7º ANO
                     </a>
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/1ETAPA8ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       8º ANO
                     </a>
-                    <a className="transition hover:text-minhaCorb sm:w-[28%]">
+                    <a
+                      href="/1ETAPA9ANO.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition hover:text-minhaCorb sm:w-[28%]"
+                    >
                       9º ANO
                     </a>
                   </span>
@@ -115,22 +159,22 @@ export const FundamentalFinais = () => {
           </div>
         </section>
         <section className="flex justify-center items-center bg-minhaCorb/20  mt-10">
-          <div className="sm:grid grid-cols-2 mb-10 mt-14 gap-10 w-[70%] justify-end items-center">
-            <div className="flex flex-col">
+          <div className="sm:grid grid-cols-2 mb-32 w-[70%] ">
+            <div className="flex flex-col mt-10">
               <div className="flex ">
                 <div className=" flex items-center justify-center font-sans font-bold text-minhaCorP bg-minhaCorb h-10 w-10 p-5 rounded-full  text-[15px]">
                   1
                 </div>
                 <div className=" ml-4 flex flex-col">
                   <h1 className="text-minhaCorb font-bold text-[25px]">
-                    Letramento
+                    Aprofundamento Acadêmico
                   </h1>
                   <h1 className="text-minhaCorb ">
-                    No contato com os outros, a criança desenvolve linguagens e
-                    pensamento, expressando-os de várias formas, como a fala,
-                    desenhos, reconhecimento de letras e palavras. Com a prática
-                    pedagógica, terão vivências que promoverão a apropriação das
-                    funções sociais da leitura e escrita
+                    Nos Anos Finais, os alunos ampliam seus conhecimentos nas
+                    diferentes áreas, desenvolvendo pensamento crítico,
+                    capacidade de análise e autonomia nos estudos. O trabalho
+                    pedagógico prepara o estudante para desafios mais complexos
+                    e para a continuidade no Ensino Médio.
                   </h1>
                 </div>
               </div>
@@ -140,50 +184,100 @@ export const FundamentalFinais = () => {
                 </div>
                 <div className=" ml-4 flex flex-col">
                   <h1 className="text-minhaCorb font-bold text-[25px]">
-                    Brincar
+                    Simulados
                   </h1>
                   <h1 className="text-minhaCorb ">
-                    É pela brincadeira que a criança apreende seu universo
-                    social e organiza a realidade. O brincar desenvolve a
-                    identidade, a autonomia, a socialização, o contato com
-                    regras sociais, possibilidades de escolhas, resolução de
-                    situações-problemas e o desenvolvimento da imaginação
+                    Os simulados são uma ferramenta de avaliação que permite aos
+                    alunos praticar e consolidar seus conhecimentos,
+                    desenvolvendo habilidades de resolução de problemas e
+                    preparando-se para desafios acadêmicos mais complexos.
                   </h1>
                 </div>
               </div>
-            </div>
-            <div className="flex flex-col">
-              <div className="flex ">
+              <div className="flex mt-24">
                 <div className=" flex items-center justify-center font-sans font-bold text-minhaCorP bg-minhaCorb h-10 w-10 p-5 rounded-full  text-[15px]">
                   3
                 </div>
                 <div className=" ml-4 flex flex-col">
                   <h1 className="text-minhaCorb font-bold text-[25px]">
-                    Imagem e Arte
+                    Inteligência Socioemocional (LIV)
                   </h1>
                   <h1 className="text-minhaCorb ">
-                    As possibilidades de experiências incorporam as diferentes
-                    linguagens: o desenho e a pintura, a fotografia, o cinema, a
-                    escultura, o vídeo, os processos de expressão e criação e os
-                    instrumentos artísticos, de maneira a estimular a atividade
-                    intelectual, a sensibilidade e a habilidade manual.
+                    Com o programa LIV – Laboratório Inteligência de Vida, os
+                    alunos desenvolvem competências essenciais como
+                    autoconhecimento, empatia, responsabilidade e tomada de
+                    decisões. O LIV contribui para o equilíbrio emocional e para
+                    a construção de relações saudáveis dentro e fora da escola.
+                  </h1>
+                </div>
+              </div>
+              <div className="flex mt-10 ">
+                <div className=" flex items-center justify-center font-sans font-bold text-minhaCorP bg-minhaCorb h-10 w-10 p-5 rounded-full  text-[15px]">
+                  4
+                </div>
+                <div className=" ml-4 flex flex-col">
+                  <h1 className="text-minhaCorb font-bold text-[25px]">
+                    Inglês
+                  </h1>
+                  <h1 className="text-minhaCorb ">
+                    O ensino da língua inglesa acontece de forma contínua e
+                    estruturada, desenvolvendo as habilidades de leitura,
+                    escrita, escuta e fala. O aluno amplia seu repertório
+                    linguístico e se prepara para contextos acadêmicos e sociais
+                    cada vez mais conectados ao mundo globalizado.
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col  ">
+              <div className="flex mt-10">
+                <div className=" flex items-center justify-center font-sans font-bold text-minhaCorP bg-minhaCorb h-10 w-10 p-5 rounded-full  text-[15px]">
+                  5
+                </div>
+                <div className=" ml-4 flex flex-col ">
+                  <h1 className="text-minhaCorb font-bold text-[25px]">
+                    Ensino Religioso
+                  </h1>
+                  <h1 className="text-minhaCorb ">
+                    O Ensino Religioso promove a reflexão, o diálogo e a
+                    vivência de valores cristãos. Nesta etapa, os alunos são
+                    convidados a aprofundar sua consciência ética, espiritual e
+                    social, fortalecendo atitudes de respeito, solidariedade e
+                    responsabilidade.
                   </h1>
                 </div>
               </div>
               <div className="flex mt-10">
                 <div className=" flex items-center justify-center font-sans font-bold text-minhaCorP bg-minhaCorb h-10 w-10 p-5 rounded-full  text-[15px]">
-                  4
+                  6
                 </div>
                 <div className=" ml-4 flex flex-col ">
                   <h1 className="text-minhaCorb font-bold text-[25px]">
-                    Inglês
+                    Projeto Sorriso Solidário
                   </h1>
                   <h1 className="text-minhaCorb ">
-                    Com o Programa Marista Bilíngue, os estudantes têm a
-                    oportunidade de vivenciar a aquisição da língua inglesa, por
-                    meio de experiências e projetos que utilizam o Inglês como
-                    ferramenta para a construção do conhecimento. Assim,
-                    articula o aprendizado do idioma com outras áreas.
+                    Por meio do projeto de voluntariado Sorriso Solidário, os
+                    alunos vivenciam na prática valores como empatia,
+                    solidariedade e compromisso com o próximo. As ações promovem
+                    o encontro com diferentes realidades, despertando o senso de
+                    responsabilidade social e formando jovens mais conscientes e
+                    sensíveis às necessidades do outro.
+                  </h1>
+                </div>
+              </div>
+              <div className="flex mt-12">
+                <div className=" flex items-center justify-center font-sans font-bold text-minhaCorP bg-minhaCorb h-10 w-10 p-5 rounded-full  text-[15px]">
+                  7
+                </div>
+                <div className=" ml-4 flex flex-col ">
+                  <h1 className="text-minhaCorb font-bold text-[25px]">
+                    Formação Integral
+                  </h1>
+                  <h1 className="text-minhaCorb ">
+                    Aliamos excelência acadêmica à formação humana,
+                    socioemocional e espiritual. Nosso objetivo é formar jovens
+                    protagonistas, conscientes de seu papel no mundo e
+                    preparados para os desafios da vida.
                   </h1>
                 </div>
               </div>
