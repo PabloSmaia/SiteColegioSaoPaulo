@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import Maternal from "../../assets/FotosSegmento/Maternal.png";
+import Maternal from "../../assets/FotosSegmento/MATERNAL.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
